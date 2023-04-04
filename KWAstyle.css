@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'Mulish';
+    src: url(Mulish-Regular.ttf);
+}
+@font-face {
+    font-family: 'Oxygen';
+    src: url(Oxygen-Regular.ttf);
+}
+body {
+    width: 1440px;
+}
+header {
+    padding-top: 19px;
+    padding-left: 120px;
+    display: flex;
+}
+.body-section {
+    display: flex;
+}
+a {
+    text-decoration: none;
+    margin-left: 20px;
+    font-family: 'Mulish';
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    text-transform: capitalize;
+}
+nav {
+    margin-left: 645px;
+    margin-top: 16px;
+}
+.text-sec {
+    height: 424px;
+    width: 603px;
+    margin-top: 138px;
+    margin-left: 120px;
+}    
+.titlep{
+    font-family: 'Oxygen';
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 63px;
+    text-transform: capitalize;
+}
+.textp {
+    font-family: 'Oxygen';
+    font-size: 24px;
+    font-weight: 100;
+    line-height: 51px;
+    margin-top: 35px;
+}
+.join-button {
+    height: 75px;
+    width: 206px;
+    background-color:rgba(85, 85, 255, 0.81);
+    border: none;
+}
+.button-span {
+    font-family: 'Oxygen';
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 45px;
+    color: white;
+}
+.photo-sec {
+    margin-top: 186px;
+    margin-left: 104px;
+}
